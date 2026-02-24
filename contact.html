@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Contact Us</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .coffee-contact-container {
+            /* The Coffee Background Image */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                              url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            
+            /* Cover the whole screen */
+            height: 100vh; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            /* Centering the content */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-box {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+            backdrop-filter: blur(10px); /* Blur effect behind box */
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #e0c097; /* Coffee foam color */
+        }
+
+        .contact-info {
+            text-align: left;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #e0c097;
+            color: #3e2723;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition:
+        }
+
+        .button:hover {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="coffee-contact-container">
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p> We'd love to hear from you. Drop by for a cup.</p>
+            
+            <div class="contact-info">
+                <p><strong>📍 Address:</strong><br>123 Campsite  Avenue, Wilderness, CA 98765</p>
+                <p><strong>📞 Phone:</strong><br>(123)  456-7890</p>
+                <p><strong>✉️ Email:</strong><br> info@coffeeshopwebsite.com</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
